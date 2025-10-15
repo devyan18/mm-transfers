@@ -2,7 +2,6 @@ import { Request, Response } from "express";
 import { Jwt } from "../../utils/jwt.js";
 
 import { AuthService } from "./auth.service.js";
-import { UserServiceMongoose } from "../user/user.service.js";
 import { UserRepository } from "../user/user.repository.js";
 
 export class AuthMiddleware {
